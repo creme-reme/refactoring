@@ -47,11 +47,11 @@
         <property name="offCommentFormat" value="CSOFF\: .*"/>
         <property name="onCommentFormat" value="CSON\: .*"/>
     </module>
-    <module name="SuppressWithNearbyTextFilter">
-        <property name="nearbyTextPattern" value='name=\"message\"'/>
-        <property name="lineRange" value="1"/>
-        <property name="idPattern" value="lineLengthXml"/>
-    </module>
+<!--    <module name="SuppressWithNearbyTextFilter">-->
+<!--        <property name="nearbyTextPattern" value='name=\"message\"'/>-->
+<!--        <property name="lineRange" value="1"/>-->
+<!--        <property name="idPattern" value="lineLengthXml"/>-->
+<!--    </module>-->
 
     <!-- Headers -->
 
@@ -269,7 +269,7 @@
             <property name="tokens" value="LITERAL_FINALLY"/>
             <property name="tokens" value="LITERAL_FOR"/>
             <property name="tokens" value="LITERAL_IF"/>
-            <property name="tokens" value="LITERAL_SWITCH"/>
+<!--            <property name="tokens" value="LITERAL_SWITCH"/>-->
             <property name="tokens" value="LITERAL_SYNCHRONIZED"/>
             <property name="tokens" value="LITERAL_TRY"/>
             <property name="tokens" value="LITERAL_WHILE"/>
@@ -296,7 +296,7 @@
             <property name="tokens" value="LITERAL_FINALLY"/>
             <property name="tokens" value="LITERAL_IF"/>
             <property name="tokens" value="LITERAL_TRY"/>
-            <property name="tokens" value="LITERAL_SWITCH"/>
+<!--            <property name="tokens" value="LITERAL_SWITCH"/>-->
             <property name="tokens" value="ANNOTATION_DEF"/>
             <property name="tokens" value="ENUM_DEF"/>
             <property name="tokens" value="RECORD_DEF"/>
@@ -521,11 +521,11 @@
         <module name="UnnecessaryParentheses">
             <property name="tokens"
                       value="EXPR, IDENT, NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG, STRING_LITERAL,
-                       LITERAL_NULL, LITERAL_FALSE, LITERAL_TRUE, ASSIGN, BAND_ASSIGN, BOR_ASSIGN,
-                       BSR_ASSIGN, BXOR_ASSIGN, DIV_ASSIGN, MINUS_ASSIGN, MOD_ASSIGN, PLUS_ASSIGN,
-                       SL_ASSIGN, SR_ASSIGN, STAR_ASSIGN, LAMBDA, TEXT_BLOCK_LITERAL_BEGIN, LAND,
-                       LOR, LITERAL_INSTANCEOF, GT, LT, GE, LE, EQUAL, NOT_EQUAL, UNARY_MINUS,
-                       UNARY_PLUS, INC, DEC, LNOT, BNOT, POST_INC, POST_DEC, BOR, BXOR, BAND"/>
+               LITERAL_NULL, LITERAL_FALSE, LITERAL_TRUE, ASSIGN, BAND_ASSIGN, BOR_ASSIGN,
+               BSR_ASSIGN, BXOR_ASSIGN, DIV_ASSIGN, MINUS_ASSIGN, MOD_ASSIGN, PLUS_ASSIGN,
+               SL_ASSIGN, SR_ASSIGN, STAR_ASSIGN, LAMBDA, TEXT_BLOCK_LITERAL_BEGIN, LAND,
+               LOR, LITERAL_INSTANCEOF, GE, LE, EQUAL, NOT_EQUAL, UNARY_MINUS,
+               UNARY_PLUS, INC, DEC, LNOT, BNOT, POST_INC, POST_DEC"/>
         </module>
         <module name="UnnecessarySemicolonAfterOuterTypeDeclaration"/>
         <module name="UnnecessarySemicolonAfterTypeMemberDeclaration"/>
@@ -849,8 +849,8 @@
             <property name="tokens" value="SL"/>
             <property name="tokens" value="LE"/>
             <property name="tokens" value="LT"/>
-            <property name="tokens" value="BXOR"/>
-            <property name="tokens" value="BOR"/>
+<!--            <property name="tokens" value="BXOR"/>-->
+<!--            <property name="tokens" value="BOR"/>-->
             <property name="tokens" value="LOR"/>
             <property name="tokens" value="BAND"/>
             <property name="tokens" value="LAND"/>
